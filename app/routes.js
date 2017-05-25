@@ -50,7 +50,7 @@ export default function createRoutes() {
   },
 
   {
-   path: '/',
+   path: '/thecloud',
    name: 'TheCloud',
    getComponent(nextState, cb) {
      import('containers/TheCloud')

@@ -14,6 +14,7 @@ import ReactDOM from 'react-dom';
 import { applyRouterMiddleware, Router, browserHistory } from 'react-router';
 import { useScroll } from 'react-router-scroll';
 import injectTapEventPlugin from 'react-tap-event-plugin';
+
 injectTapEventPlugin();
 
 import 'sanitize.css/sanitize.css';
