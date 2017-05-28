@@ -8,7 +8,6 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import {Link} from 'react-router';
 import Responsive from 'react-responsive';
-import {Jumbotron } from 'react-bootstrap';
 
 export default class Home extends React.PureComponent {
   render() {
@@ -41,173 +40,144 @@ export default class Home extends React.PureComponent {
                                   <li><a href="#contact" data-scroll>Contact</a></li>
                                   <li class="nav-download-btn"><a href="#download-app" data-scroll>Download</a></li>
                               </ul>
-
+                            </div>
                       </div>
                   </div>
               </div>
           </nav>
       </header>
 
-
-
-<body>
-
-    <div class="preloader">
-        ...
-    </div>
-
-    <header id="home">
-        <nav class="navbar" id="">
-            ...
-        </nav>
-    </header>
-
-
-    <section class="intro">
+      <section class="intro intro-style2">
         <div class="container">
             <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+                <div class="col-md-7 col-sm-7 intro-info wow fadeIn">
+                    <div class="intro-info-content">
+                        <h1></h1>
+                        <p></p>
+                        <ul class="list-unstyled">
+                            <li><a href="">Join Now</a></li>
+                            <li><a href="">Sign In</a></li>
+                        </ul>
+                    </div>
+                 </div>
+             </div>
+          </div>
+      </section>
 
-    <section class="services" id="">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
 
-    <section class="about-app">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="services" id="">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="app-features" id="">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="about-app">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="video-featured">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="app-features" id="">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="screenshots" id="screenshots">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="video-featured">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="counters">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="screenshots" id="screenshots">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="price-table" id="">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="counters">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="testimonial" id="">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="price-table" id="">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="team">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="team">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="download-app" id="download-app">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="download-app" id="download-app">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="change-log">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="change-log">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="faqs">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="faqs">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="newsletter">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="blog" id="">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="blog" id="">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <section class="contact" id="">
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </section>
 
-    <section class="clients-logo">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
+          <footer>
+              <div class="container">
+                  <div class="row">
+                      ...
+                  </div>
+              </div>
+          </footer>
 
-    <section class="contact" id="">
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                ...
-            </div>
-        </div>
-    </footer>
-
-</body>
 
 
     )
